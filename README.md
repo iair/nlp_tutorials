@@ -1,40 +1,47 @@
-```markdown
+
 # NLP Tutorials
 
 ## Descripción del Proyecto
 
-Este proyecto proporciona tutoriales y ejemplos prácticos para trabajar con **Procesamiento de Lenguaje Natural (NLP)**. Se centra en el uso de embeddings, métricas de similitud y herramientas avanzadas para la evaluación de textos, integrando las mejores prácticas para configuraciones reproducibles y análisis efectivos.
-
----
+Este proyecto está diseñado para ayudar a profesionales e investigadores a aprender y trabajar con **Procesamiento de Lenguaje Natural (NLP)**. Proporciona tutoriales prácticos y ejemplos que abarcan desde la comparación de documentos hasta la evaluación de texto utilizando métricas estándar en la industria. Además, se incluyen herramientas modernas para la gestión de datos, generación de embeddings y análisis reproducible.
 
 ## Características del Proyecto
 
-- **Tópicos Cubiertos**:
-  - Comparación de documentos usando similitud coseno, distancia euclidiana y distancia de Jaccard.
-  - Evaluación de texto con métricas como BLEU, ROUGE y SacreBLEU.
-  - Uso de embeddings pre-entrenados para tareas de NLP.
-  - Orquestación de flujos con datasets como BEIR.
-- **Herramientas Integradas**:
-  - Hugging Face Transformers y Evaluate.
-  - Librerías de visualización como Matplotlib y Seaborn.
-  - Uso de FAISS para búsquedas vectoriales eficientes.
+### Tópicos Cubiertos
+- Comparación de documentos utilizando:
+  - Similitud coseno.
+  - Distancia euclidiana.
+  - Distancia de Jaccard.
+- Evaluación de texto con métricas como:
+  - BLEU (evaluación de texto generado).
+  - ROUGE (evaluación estructural de texto).
+  - SacreBLEU (evaluación reproducible de texto generado).
+- Uso de embeddings pre-entrenados con **Sentence-Transformers**.
+- Manejo y evaluación de datasets grandes como los disponibles en **BEIR**.
 
----
+### Herramientas Integradas
+- **Hugging Face Transformers**: Manejo de modelos pre-entrenados.
+- **FAISS**: Búsqueda vectorial eficiente para tareas de recuperación de información.
+- **Matplotlib y Seaborn**: Visualización de métricas y resultados.
 
-## Características del Equipo
+## Características del Equipo Recomendado
 
-- **Sistema Operativo**: MacOS Ventura 13.5 (22G74)
-- **Chip**: Apple M2 Max
-- **RAM**: 64 GB
+Este proyecto ha sido probado en el siguiente entorno, pero puede adaptarse a otros sistemas operativos y configuraciones:
 
----
+- **Sistema Operativo**: MacOS Ventura 13.5 (22G74).
+- **Chip**: Apple M2 Max.
+- **RAM**: 64 GB.
 
 ## Requisitos Previos
 
+### Software Necesario
 - **Python**: 3.10 o superior.
-- **Miniconda**: Para la gestión de ambientes virtuales.
+- **Miniconda**: Para la creación y gestión de ambientes virtuales.
 
----
+### Conocimientos Requeridos
+- Familiaridad con Python y bibliotecas para procesamiento de datos.
+- Conceptos básicos de NLP (embeddings, métricas de similitud).
+- Uso de Jupyter Notebooks para ejecutar los tutoriales.
 
 ## Pasos para Configuración
 
@@ -188,4 +195,3 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para má
 
 - Este proyecto está diseñado para sistemas macOS, pero puede adaptarse fácilmente a otros sistemas operativos.
 - La configuración está optimizada para hardware con alto rendimiento.
-```
